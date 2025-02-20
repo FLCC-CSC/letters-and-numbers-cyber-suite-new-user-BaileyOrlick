@@ -22,7 +22,7 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-name = input('Pleas enter your name: ')
+name = input('Please enter your name: ')
 id = int(input('Please enter your user id: '))
 password = str(input('Please enter your password: '))
 length = len(password) * "X"
