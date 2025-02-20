@@ -27,7 +27,7 @@ id = int(input('Please enter your user id: '))
 password = str(input('Please enter your password: '))
 length = len(password) * "X"
 
-
+print()
 print(f'Welcome, {name}. Your ID is {id}.')
 print()
 print(f'PASSWORD: ')
@@ -83,7 +83,7 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 1. This project has a bit of a speed bump (converting the password to XXXXs). What was your thought process?
 
 
-
+Trying to figure out how to print the password as an X, but matching the size of the password, was difficult to figure out.
 
 
 '''
