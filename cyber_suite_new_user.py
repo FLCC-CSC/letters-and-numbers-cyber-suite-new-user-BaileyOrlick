@@ -30,7 +30,7 @@ length = len(password) * "X"
 
 print(f'Welcome, {name}. Your ID is {id}.')
 print()
-print(f'PASSWORD:')
+print(f'PASSWORD: ')
 print(length)
 
 ########### END YER CODE ABOVE THIS LINE ###########
