@@ -1,8 +1,8 @@
 # FILE NAME: cyber_suite_new_user.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Bailey Orlick
+# DATE: 2/15/2025
+# BRIEF DESCRIPTION: This will output a simple login simulation with a censored password. 
 
 
 
@@ -22,14 +22,16 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+name = input('Pleas enter your name: ')
+id = int(input('Please enter your user id: '))
+password = str(input('Please enter your password: '))
+length = len(password) * "X"
 
 
-
-
-
-
-
-
+print(f'Welcome, {name}. Your ID is {id}.')
+print()
+print(f'PASSWORD:')
+print(length)
 
 ########### END YER CODE ABOVE THIS LINE ###########
     
